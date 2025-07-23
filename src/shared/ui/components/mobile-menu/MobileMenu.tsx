@@ -10,9 +10,7 @@ import { WEBSITE_EMAIL, WEBSITE_PHONE } from '@/shared/lib/constants/constants';
 
 import { Email } from '../../icons/email/email';
 import { Phone } from '../../icons/phone/phone';
-import { Facebook } from '../../icons/socials/facebook/facebook';
-import { Instagram } from '../../icons/socials/instagram/instagram';
-import { X } from '../../icons/socials/x/x';
+import { Linkedin } from '../../icons/socials/linkedin/Linkedin';
 import Button from '../../kit/button/Button';
 import styles from './MobileMenu.module.scss';
 
@@ -59,13 +57,7 @@ export const MobileMenu = () => {
           </Link>
           <div className={styles.mobileMenuBottomSocial}>
             <Link href="#" target="_blank">
-              <Facebook />
-            </Link>
-            <Link href="#" target="_blank">
-              <Instagram />
-            </Link>
-            <Link href="#" target="_blank">
-              <X />
+              <Linkedin />
             </Link>
           </div>
         </div>

@@ -11,9 +11,7 @@ import {
   WEBSITE_REGISTRATION_ADDRESS,
 } from '@/shared/lib/constants/constants';
 
-// import { Facebook } from "../../icons/socials/facebook/facebook";
-// import { Instagram } from "../../icons/socials/instagram/instagram";
-// import { X } from "../../icons/socials/x/x";
+import { Linkedin } from '../../icons/socials/linkedin/Linkedin';
 import styles from './Footer.module.scss';
 
 export const Footer = () => {
@@ -94,15 +92,9 @@ export const Footer = () => {
       <div className={'_container'}>
         <div className={styles.footerBottom}>
           <div className={styles.footerBottomLeft}>
-            {/**<Link href="#" target="_blank">
-              <Facebook />
+            <Link href="https://www.linkedin.com/company/the-clicksly/" target="_blank">
+              <Linkedin />
             </Link>
-            <Link href="#" target="_blank">
-              <Instagram />
-            </Link>
-            <Link href="#" target="_blank">
-              <X />
-            </Link> */}
           </div>
           <div className={styles.footerBottomRight}>
             <p>© {year} Youmedia Inc</p>
